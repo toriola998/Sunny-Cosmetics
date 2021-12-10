@@ -142,7 +142,7 @@ header h1 {
 }
 
 .products-info {
-    padding: 3rem 1.5rem 0;
+    padding: 3rem 1.5rem;
 }
 
 .products-info>div {
@@ -165,4 +165,62 @@ header h1 {
 .products-info h2 {
     font-size: 1.9rem;
     font-family: var(--headingFont);
+}
+
+.center-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.pie-wrap {
+    align-items: center;
+}
+
+.choose-wrap {
+    margin-bottom: 2rem;
+}
+
+.choose-wrap p {
+    font-style: italic;
+}
+
+.choose-wrap h3 {
+    font-family: var(--headingFont);
+    font-size: 1.8rem;
+}
+
+#ph {
+    font-weight: 600;
+    color: #242424;
+    margin-top: 1rem;
+}
+
+.image-pattern {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#products {
+    padding: 6rem 1.5rem;
+}
+
+#products p {
+    color: #646464;
+}
+
+#products h4 {
+    font-family: var(--headingFont);
+    color: #1b1b1b;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.learn-arrow{
+    margin-top: 1.5rem;
+}
+
+.learn-arrow p {
+    color: #F93801 !important;
+    margin-left: 1rem;
+    font-weight: 500;
 }
