@@ -88,6 +88,43 @@ header h1 {
 #home-product {
     height: auto;
     width: 85%;
+}
+
+#home-product, 
+.details {
     display: block;
     margin: auto;
+}
+
+.details {
+    background-color: #FFF8E7;
+    padding: 2.5rem;
+    border-radius: 10px;
+    width: 13rem;
+}
+
+.details-p {
+    font-family: var(--paragrapghFont);
+    color: grey;
+    font-size: 14px;
+}
+
+.details h2, 
+.quantity {
+    font-family: var(--headingFont);
+    font-weight: 800;
+}
+
+.inner-details {
+    margin: 2rem 0;
+}
+
+.arrow-wrap {
+    border: 1px solid #392529;
+    border-radius: 50px;
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
