@@ -98,7 +98,8 @@ header h1 {
 
 #home-product, 
 .details,
-.product-photo{
+.product-photo, 
+.woman-photo{
     display: block;
     margin: auto;
 }
@@ -244,4 +245,33 @@ header h1 {
 
 #trusted-clients img {
     padding: 0 1rem;
+}
+
+.woman-photo {
+    width: 80%;
+}
+
+#customer-story>div {
+    padding: 2rem 1.5rem 0;
+}
+
+#customer {
+    color: #8A60FF;
+}
+
+#customer-story h4 {
+    font-family: var(--headingFont);
+    font-size: 2rem;
+    padding: 0.5rem 0 1rem;
+}
+
+.story {
+    color: #4F6B7D;
+    font-size: 13px;
+}
+
+#dragos {
+    font-family: var(--headingFont);
+    color: #000;
+    font-size: 18px;
 }
