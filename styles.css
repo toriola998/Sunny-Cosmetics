@@ -324,5 +324,51 @@ footer {
 }
 
 footer input {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    padding-left: 3rem;
+}
+
+.footer-p {
+    margin: 2rem 0;
+}
+.input-wrap {
+    background-color: #000;
+    height: 4rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-wrap button {
+    background-color: #f8f8f8;
+    width: 4rem;
+    height: 2.5rem;
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer h5 {
+    font-family: var(--paragrapghFont);
+    color: #000;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+footer a {
+    color: grey;
+    font-family: var(--paragrapghFont);
+    font-size: 15px;
+}
+
+.each-detail {
     margin-top: 2rem;
 }
+
