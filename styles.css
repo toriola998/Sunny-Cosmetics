@@ -317,3 +317,12 @@ header h1 {
     justify-content: space-around;
     margin-top: 3rem;
 }
+
+footer {
+    background-color: #f8f8f8;
+    padding: 3rem 1.5rem;
+}
+
+footer input {
+    margin-top: 2rem;
+}
