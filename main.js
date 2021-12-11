@@ -20,17 +20,13 @@ navLinks.forEach(link => {
   }); 
 });
 
-/*
+/** faq section*/
 const plusBtn = [...document.querySelectorAll('.plus')];
-const answers = document.querySelectorAll('.answers')
-console.log(answers)
-
+//const minusBtn = document.querySelectorAll('.minus')
 plusBtn.forEach( (btn)=> {
-    btn.addEventListener('click', function () {
-            //answers.style.display = 'block'
-            console.log('red')
-            answers.classList.toggle('show-text')
-
-
-        })
-} )*/
+    btn.addEventListener('click', function (e) {
+        const btnTarget = e.currentTarget.parentElement.parentElement.parentElement.lastElementChild;
+        console.log(btnTarget)
+        btnTarget.classList.toggle('show-text')
+    })
+} )
