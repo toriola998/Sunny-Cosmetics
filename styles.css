@@ -224,3 +224,24 @@ header h1 {
     margin-left: 1rem;
     font-weight: 500;
 }
+
+#trusted-clients {
+    margin-bottom: 5rem;
+}
+
+#trusted-clients div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#trusted-clients p {
+    text-align: center;
+    color: #C8CED8;
+    margin-bottom: 2rem;
+
+}
+
+#trusted-clients img {
+    padding: 0 1rem;
+}
