@@ -178,7 +178,7 @@ header h1 {
 }
 
 .choose-wrap {
-    margin-bottom: 2rem;
+    margin-bottom: 3.5rem;
 }
 
 .choose-wrap p {
@@ -371,4 +371,35 @@ footer a {
 .each-detail {
     margin-top: 2rem;
 }
+
+.social-media {
+    margin-top: 2rem;
+}
+
+.social-media > div {
+    background-color: #000;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.2rem;
+}
+
+.hr-line {
+    width: auto;
+    height: 1px;
+    background-color: grey;
+    margin: 3rem 0 0.5rem;
+}
+
+.flex-ul {
+    margin-top: 1em;
+}
+
+.flex-ul a {
+    margin-right: 1rem;
+}
+
 
