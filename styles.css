@@ -284,12 +284,14 @@ header h1 {
     text-align: center;
     font-family: var(--headingFont);
     font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 article {
     padding: 1rem;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 5px;
+    margin-bottom: 2rem;
 }
 
 article button {
@@ -298,27 +300,28 @@ article button {
     margin-right: 3rem;
 }
 
-.plus {
+.plus, .minus {
     width: 1.5rem;
     height: 1.5rem;
 }
 
-.minus {
+.minus, .answers {
     display: none;
+}
+
+.answers {
+    margin-top: 2.5rem;
 }
 
 article > div {
     justify-content: space-between;
-    margin-bottom: 2.5rem;
 }
 
 .question {
     font-weight: 600;
     color: #000;
     font-size: 16px;
- 
 }
-
 
 .look-beautiful { 
     background-image: url("./assets/Abstract.svg"); /* The image used */
