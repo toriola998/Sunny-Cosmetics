@@ -550,6 +550,159 @@ footer a {
    .footer-link-wrap {
        display: grid;
        grid-template-columns: auto auto;
-       justify-content: start;
+       justify-content: space-between;
    }
+  }
+
+  @media screen and (min-width: 700px) {
+    header h1 {
+        width: 300px;
+        font-size: 4rem;
+    }
+
+    .description {
+        font-size: 15px;
+        width: 300px;
+    }
+
+    #add-to-cart {
+        width: 8rem;
+        height: 2.6rem;
+    }
+
+    .inner-grid-container {
+        display: grid;
+        grid-template-columns: 400px auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .details {
+        height: 17rem;
+    }
+
+    .details,
+    .product-photo {
+        margin: unset;
+    }
+
+    .products-info>div {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .products-info>div>div {
+        width: 50%;
+    }
+
+    .products-info-flex {
+        flex-direction: row-reverse;
+    }
+
+    .product1 {
+        width: 200px;
+    }
+
+    .product2 {
+        width: 260px;
+    }
+
+    .center-grid > div {
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+    }
+
+    #products >div {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: space-evenly;
+    }
+
+    #customer-story {
+        display: flex;
+        align-items: center;
+    }
+
+    .woman-photo {
+        width: 40%;
+        margin-right: 2rem;
+    }
+
+    #faq >div {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    article {
+        width: unset;
+        margin-right: 2rem;
+    }
+
+    .look-beautiful {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .enough-talk {
+        width: 250px;
+    }
+
+    .single-cta {
+        width: 60%;
+        justify-content: space-evenly;
+        margin-top: unset;
+
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+        .grid-container {
+            display: flex;  
+            align-items: center;  
+            justify-content: space-around;      
+        }
+
+        .info-launch {
+            width: 60%;
+            margin: auto;
+        }
+
+        .products-info>div>div {
+            width: 35%;
+        }
+
+        article {
+            width: 430px;
+            margin-right: 2rem;
+        }
+
+        .enough-talk {
+            width: unset;
+        }
+  }
+
+  @media screen and (min-width: 1300px) {
+    .inner-grid-container {
+        grid-template-columns: 700px auto;  
+    }
+
+    .products-info>div{
+        justify-content: center;
+    }
+
+    .product1 {
+        width: 20%;
+    }
+
+    .product2 {
+        width: 30%;
+    }
+
+    .footer-link-wrap {
+        grid-template-columns: auto auto auto auto;
+    }
+
   }

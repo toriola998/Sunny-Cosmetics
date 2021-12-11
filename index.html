@@ -34,39 +34,46 @@
                     </ul>
                 </div> 
             </nav>
-            <div class="flex delivery">
-                <p>Free delivery worldwide</p>
-                <img src="./assets/delivery-man.svg" alt="delivery-man"/>
-            </div>
-            <h1>Foundation Matte & Poreless</h1>
-            <p class="description">Maybelline’s #1 foundation perfect for oily skin. No stickiness, no shine.</p>
-            
-            <div class="flex cta">
-                <button id="add-to-cart">Add to Cart</button>
-                <div class="flex video-wrap">
-                    <img src="./assets/video-thumbnail.svg" alt="video-thumbnail"/>
-                    <p>How It Works</p>
+            <div class="grid-container">
+                <div>
+                    <div class="flex delivery">
+                        <p>Free delivery worldwide</p>
+                        <img src="./assets/delivery-man.svg" alt="delivery-man"/>
+                    </div>
+                    <h1>Foundation Matte & Poreless</h1>
+                    <p class="description">Maybelline’s #1 foundation perfect for oily skin. No stickiness, no shine.</p>
+                    
+                    <div class="flex cta">
+                        <button id="add-to-cart">Add to Cart</button>
+                        <div class="flex video-wrap">
+                            <img src="./assets/video-thumbnail.svg" alt="video-thumbnail"/>
+                            <p>How It Works</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <img src="./assets/home-product.svg" id="home-product" alt="home-product"/>
-            
-            <div class="details">
-                <p class="details-p">Details</p>
-                <h2>$100.45</h2>
-                <div class="inner-details">
-                    <p class="quantity">30 mL</p>
-                    <img src="./assets/Review.svg" alt="review"/>
+                
+                <div class="inner-grid-container">
+                    <img src="./assets/home-product.svg" id="home-product" alt="home-product"/>
+                    <div class="details">
+                        <p class="details-p">Details</p>
+                        <h2>$100.45</h2>
+                        <div class="inner-details">
+                            <p class="quantity">30 mL</p>
+                            <img src="./assets/Review.svg" alt="review"/>
+                        </div>
+                        <div class="arrow-wrap">
+                            <img src="./assets/prev.svg" alt="previous-arrow" id="prev-btn"/>
+                            <img src="./assets/next.svg" alt="next-arrow"/>
+                        </div>
+                    </div>
                 </div>
-                <div class="arrow-wrap">
-                    <img src="./assets/prev.svg" alt="previous-arrow" id="prev-btn"/>
-                    <img src="./assets/next.svg" alt="next-arrow"/>
-                </div>
+                
             </div>
         </header>
         <main>
             <section class="products-info">
                 <h1 class="best">Best Cosmetic Products</h1>
-                <p class="info">Launched in 2002, Makeup City has brought renowned international personal care
+                <p class="info info-launch">Launched in 2002, Makeup City has brought renowned international personal care
                 brands under one roof for the first time in Pakistan. from a journey of a few stores,
                 we have grown significantly, by making our brands available to almost every where a 
                 person can think off.</p>
@@ -81,7 +88,7 @@
                     </div>  
                 </div>
                
-                <div>
+                <div class="products-info-flex">
                     <img src="./assets/product2-mobile.svg" class="product-photo product2" alt="product-photo"/>
                     <div>
                         <h2>HD Micro Foundation Matifying Liquid</h2>
@@ -157,44 +164,46 @@
             </section>
             <section id="faq"> 
                 <h4>Frequently Ask Questions</h4>
-
-                <article>
-                    <div class="flex">
-                        <button>
-                            <img src="./assets/plus-btn.svg" alt="show-faq-btn" class="plus"/>
-                            <img src="./assets/minus-btn.svg" alt="hide-faq-btn" class="minus"/>
-                        </button>
-                        <p class="question">How long until we deliver your product.</p>
-                    </div>
-                    <p class="answers">It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research
-                    & creation of your monthly content marketing strategy that we MUST do before writing your first blog post.</p>
-                </article>
-                
-                <article>
-                    <div class="flex">
-                        <button>
-                            <img src="./assets/plus-btn.svg" alt="show-faq-btn" class="plus"/>
-                            <img src="./assets/minus-btn.svg" alt="hide-faq-btn" class="minus"/>
-                        </button>
-                        <p class="question">How long until we deliver your product.</p>
-                    </div>
-                    <p class="answers">It takes 567 weeks to get your first blog post ready. That includes the in-depth research
-                    & creation of your monthly content marketing strategy that we MUST do before writing your first blog post.</p>
-                </article>
-                <article>
-                    <div class="flex">
-                        <button>
-                            <img src="./assets/plus-btn.svg" alt="show-faq-btn" class="plus"/>
-                            <img src="./assets/minus-btn.svg" alt="hide-faq-btn" class="minus"/>
-                        </button>
-                        <p class="question">How long until we deliver your product.</p>
-                    </div>
-                    <p class="answers">It takes 9 months to get your first blog post ready. That includes the in-depth research
-                    & creation of your monthly content marketing strategy that we MUST do before writing your first blog post.</p>
-                </article>
-            </section>
-            <section class="look-beautiful">
                 <div>
+                    <article>
+                        <div class="flex">
+                            <button>
+                                <img src="./assets/plus-btn.svg" alt="show-faq-btn" class="plus"/>
+                                <img src="./assets/minus-btn.svg" alt="hide-faq-btn" class="minus"/>
+                            </button>
+                            <p class="question">How long until we deliver your product.</p>
+                        </div>
+                        <p class="answers">It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research
+                        & creation of your monthly content marketing strategy that we MUST do before writing your first blog post.</p>
+                    </article>
+                    
+                    <article>
+                        <div class="flex">
+                            <button>
+                                <img src="./assets/plus-btn.svg" alt="show-faq-btn" class="plus"/>
+                                <img src="./assets/minus-btn.svg" alt="hide-faq-btn" class="minus"/>
+                            </button>
+                            <p class="question">How long until we deliver your product.</p>
+                        </div>
+                        <p class="answers">It takes 567 weeks to get your first blog post ready. That includes the in-depth research
+                        & creation of your monthly content marketing strategy that we MUST do before writing your first blog post.</p>
+                    </article>
+                    <article>
+                        <div class="flex">
+                            <button>
+                                <img src="./assets/plus-btn.svg" alt="show-faq-btn" class="plus"/>
+                                <img src="./assets/minus-btn.svg" alt="hide-faq-btn" class="minus"/>
+                            </button>
+                            <p class="question">How long until we deliver your product.</p>
+                        </div>
+                        <p class="answers">It takes 9 months to get your first blog post ready. That includes the in-depth research
+                        & creation of your monthly content marketing strategy that we MUST do before writing your first blog post.</p>
+                    </article>
+                </div> 
+            </section>
+
+            <section class="look-beautiful">
+                <div class="enough-talk">
                     <h4>Enough talk, let's make you look beautiful</h4>
                     <p>There are many variations of passages of lorem Ipsum available, but the</p>
                 </div>
@@ -203,8 +212,10 @@
                     <button>Get Started</button>
                 </div>
             </section>
+
             <footer>
-                <div>
+                <div class="footer-link-wrap">
+                <div style="width: 300px;">  
                     <img src="./assets/website-logo.svg" alt="logo"/>
                     <p class="footer-p">Nor again is there anyone who loves or pursues or desires to obtain pain of itself.</p>
                     <div class="input-wrap flex">
@@ -214,7 +225,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="footer-link-wrap">
+                
                     <section class="each-detail">
                         <h5>About</h5>
                         <ul>
