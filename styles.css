@@ -506,4 +506,50 @@ footer a {
     margin-right: 1rem;
 }
 
+@media screen and (min-width: 530px) {
+   header {
+       padding: 1rem 3rem;
+   }
 
+   header h1 {
+       width: 300px;
+       font-size: 3.5rem;
+   }
+
+   .products-info {
+       padding: 3rem;
+   }
+
+   .product1 {
+       width: 45%;
+   }
+
+   .product2 {
+       width: 60%;
+   }
+
+   #products,
+   #customer-story {
+       padding: 3rem;
+   }
+
+   .image-pattern {
+       width: 90%;
+   }
+
+   .woman-photo {
+       width: 60%;
+   }
+
+   article {
+       margin: 0 auto 2rem auto;
+       width: 75%;
+
+   }
+
+   .footer-link-wrap {
+       display: grid;
+       grid-template-columns: auto auto;
+       justify-content: start;
+   }
+  }
