@@ -18,13 +18,15 @@ header {
     display: flex;
 }
 
-#hamburger {
+#hamburger,
+#close-icon {
     height: 1.5rem;
     width: 1.5rem;
 }
 
 .nav-top {
     justify-content: space-between;
+    margin-bottom: 4rem;
 }
 
 .show-links {
@@ -46,25 +48,20 @@ header {
     height: 0;
   }
   
-  li {
+  nav li {
     list-style-type: none;
     padding-bottom: 1rem;
   }
 
-  li > a {
-    color: var(--brownFont);
-   font-weight: 400;
+   nav li > a {
+    color: #000;
+   font-weight: 500;
     font-size: 14px;
-    font-family: var(--paragraphFont);
+    font-family: var(--paragrapghFont);
   }
 
-  li > a > span {
-    font-weight: 600;
-    padding-right: 0.5rem;
-  }
-  
-  li > a:hover {
-    border-bottom: 3px solid var(--brownFont);
+  nav li > a:hover {
+    border-bottom: 3px solid #000;
     text-decoration: none;
   }
 
@@ -73,7 +70,6 @@ header {
     top: 1.5rem;
     right: 1.5rem;
   }
-
 
 .delivery {
     background-color: #FCC7C3;
