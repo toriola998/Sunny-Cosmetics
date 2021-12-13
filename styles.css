@@ -388,11 +388,10 @@ article > div {
 .look-beautiful { 
     background-image: url("./assets/Abstract.svg"); /* The image used */
     background-color: #7CCDE1; /* Used if the image is unavailable */
-     /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    height: 400px;
+    height: 650px;
     width: 90%;
     border-radius: 20px;
     margin: 4rem auto;
@@ -446,7 +445,6 @@ footer input {
     background-color: #000;
     height: 4rem;
     align-items: center;
-    justify-content: space-around;
 }
 
 .input-wrap button {
@@ -517,8 +515,11 @@ footer a {
    }
 
    header h1 {
-       width: 300px;
        font-size: 3.5rem;
+   }
+
+   .description{
+       width: unset;
    }
 
    .products-info {
@@ -561,7 +562,6 @@ footer a {
 
   @media screen and (min-width: 700px) {
     header h1 {
-        width: 300px;
         font-size: 4rem;
     }
 
@@ -592,7 +592,10 @@ footer a {
 
     .description {
         font-size: 15px;
-        width: 300px;
+    }
+
+    .hero {
+        margin-left: 4rem;
     }
 
     #add-to-cart {
@@ -602,7 +605,7 @@ footer a {
 
     .inner-grid-container {
         display: grid;
-        grid-template-columns: 400px auto;
+        grid-template-columns: 470px auto;
         align-items: center;
         justify-content: center;
     }
@@ -619,7 +622,7 @@ footer a {
     .products-info>div {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center
     }
 
     .products-info>div>div {
@@ -664,6 +667,11 @@ footer a {
         margin-right: 2rem;
     }
 
+    #trusted-clients {
+        margin-top: 4rem;
+    }
+    
+
     #faq >div {
         display: grid;
         grid-template-columns: auto auto;
@@ -679,6 +687,7 @@ footer a {
         align-items: center;
         justify-content: space-between;
         height: 285px !important;
+        margin-top: 5rem;
     }
 
     .look-beautiful button {
@@ -694,7 +703,14 @@ footer a {
         justify-content: space-evenly;
         margin-top: unset;
         margin-bottom: 4rem ;
+    }
 
+    .pie-wrap {
+        margin-bottom: 5rem;
+    }
+
+    footer {
+        padding: 5rem 3rem;
     }
   }
 
@@ -704,6 +720,10 @@ footer a {
     }
     nav li a {
         font-size: 16px;
+    }
+
+    .hero {
+        margin-left: unset;
     }
     .grid-container {
         display: flex;  
@@ -722,6 +742,14 @@ footer a {
         width: 35%;
     }
 
+    .product1 {
+        margin-right: 5rem;
+    }
+
+    .product2 {
+        margin-left: 3rem;
+    }
+
     article {
         width: 430px;
         margin-right: 2rem;
@@ -729,6 +757,14 @@ footer a {
 
     .enough-talk {
         width: unset;
+    }
+
+    footer p, footer a {
+        font-size: 15px !important;
+    }
+
+    footer {
+        padding: 5rem;
     }
   }
 
@@ -828,20 +864,13 @@ footer a {
         font-size: 16px;
     }
 
-    .look-beautiful h4 {
+    .look-beautiful h4,
+    #faq h4 {
         font-size: 2.2rem;
     }
 
     .footer-link-wrap {
         grid-template-columns: auto auto auto auto;
-    }
-
-    footer {
-        padding: 5rem;
-    }
-
-    footer p, footer a {
-        font-size: 15px;
     }
 
     footer li {
