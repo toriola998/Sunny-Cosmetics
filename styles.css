@@ -200,11 +200,11 @@ header h1 {
     font-size: 2.5rem;
 }
 
-.products-info {
+#about {
     padding: 3rem 1.5rem;
 }
 
-.products-info>div {
+#about>div {
     margin: 2rem 0;
 }
 
@@ -221,7 +221,7 @@ header h1 {
     color: #2C3538;
 }
 
-.products-info h2 {
+#about h2 {
     font-size: 1.9rem;
     font-family: var(--headingFont);
 }
@@ -435,7 +435,7 @@ footer input {
     background-color: inherit;
     border: none;
     outline: none;
-    padding-left: 3rem;
+    padding-left: 2.5rem;
 }
 
 .footer-p {
@@ -522,7 +522,7 @@ footer a {
        width: unset;
    }
 
-   .products-info {
+   #about {
        padding: 3rem;
    }
 
@@ -595,7 +595,7 @@ footer a {
     }
 
     .hero {
-        margin-left: 4rem;
+        margin: 5rem 0 2rem 4rem;
     }
 
     #add-to-cart {
@@ -619,26 +619,27 @@ footer a {
         margin: unset;
     }
 
-    .products-info>div {
+    #about>div {
         display: flex;
         align-items: center;
         justify-content: center
     }
 
-    .products-info>div>div {
+    #about>div>div {
         width: 50%;
     }
 
-    .products-info-flex {
+    #about-flex {
         flex-direction: row-reverse;
     }
 
     .product1 {
         width: 200px;
+        margin-right: 4rem;
     }
 
     .product2 {
-        width: 260px;
+        width: 280px;
     }
 
     .center-grid > div {
@@ -675,6 +676,7 @@ footer a {
     #faq >div {
         display: grid;
         grid-template-columns: auto auto;
+        justify-content: center;
     }
 
     article {
@@ -738,7 +740,7 @@ footer a {
         margin-top: 1rem;
     }
 
-    .products-info>div>div {
+    #about>div>div {
         width: 35%;
     }
 
@@ -803,15 +805,15 @@ footer a {
         grid-template-columns: 650px auto;  
     }
 
-    .products-info>div{
+    #about>div{
         justify-content: center;
     }
 
-    .products-info>div>div{
+    #about>div>div{
         width: 30%;
     }
 
-    .products-info h2 {
+    #about h2 {
         font-size: 2.5rem;
     }
 
@@ -864,9 +866,13 @@ footer a {
         font-size: 16px;
     }
 
-    .look-beautiful h4,
-    #faq h4 {
+    .look-beautiful h4
+     {
         font-size: 2.2rem;
+    }
+
+    #faq h4 {
+        font-size: 2.7rem;
     }
 
     .footer-link-wrap {
