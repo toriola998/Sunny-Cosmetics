@@ -437,6 +437,7 @@ footer input {
     border: none;
     outline: none;
     padding-left: 2.5rem;
+    color: #fff;
 }
 
 .footer-p {
@@ -446,6 +447,7 @@ footer input {
     background-color: #000;
     height: 4rem;
     align-items: center;
+    justify-content: center;
 }
 
 .input-wrap button {
@@ -475,6 +477,7 @@ footer a {
     font-family: var(--paragraphFont);
     font-size: 15px;
 }
+
 
 .each-detail {
     margin-top: 2rem;
@@ -565,6 +568,10 @@ footer a {
   @media screen and (min-width: 700px) {
     header h1 {
         font-size: 4rem;
+    }
+
+    header {
+        position: relative;
     }
 
     nav {
@@ -677,7 +684,7 @@ footer a {
 
     #faq >div {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         justify-content: center;
     }
 
@@ -755,7 +762,7 @@ footer a {
     }
 
     article {
-        width: 430px;
+        width: 30rem;
         margin-right: 2rem;
     }
 
@@ -884,5 +891,17 @@ footer a {
     footer li {
         padding-bottom: 0.5rem;
     }
+  }
 
+  @media screen and (min-width: 1440px) {
+    header,
+    section,
+    footer>div {
+        max-width: 1320px;
+        margin: auto;
+    }
+
+    #products {
+        margin: 5rem auto 7rem;
+    }
   }
